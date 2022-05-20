@@ -3,19 +3,15 @@ import { Link } from 'react-router-dom'
 
 
 export default function index() {
-
     return (
-
-        
         <main className='page-home'>
 
             <header class="head">
                 
-                <Link href='/'> <img class="logo"  src='/images/logo.png' alt=''/> </Link>
-                <Link class="links" href="/">CARDÁPIO</Link>
-                <Link class="links" href="/"> CONTATO </Link>
-                <Link class="login links" href='/admin'>LOGIN</Link>
-
+                <Link to='/'> <img class="logo"  src='/images/logo.png' alt=''/> </Link>
+                <Link class="links" to="/">CARDÁPIO</Link>
+                <Link class="links" to="/"> CONTATO </Link>
+                <Link class="login links" to='/admin'>LOGIN</Link>
             </header>
 
             
