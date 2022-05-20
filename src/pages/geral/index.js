@@ -9,7 +9,7 @@ export default function index() {
         <main className='page-geral'>
 
             <header class="head">
-                <a href='/home'><img class="logo" src="/images/logo.png" alt=""/></a>
+                <a href='/'><img class="logo" src="/images/logo.png" alt=""/></a>
             </header>
 
             <div class="main">

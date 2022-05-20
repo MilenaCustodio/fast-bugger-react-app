@@ -11,9 +11,9 @@ export default function index() {
 
             <header class="head">
                 
-                <a href="../home/index.html"> <img class="logo"  src='/images/logo.png' alt=''/> </a>
-                <a class="links" href="">CARDÁPIO</a>
-                <a class="links" href=""> CONTATO </a>
+                <a href='/'> <img class="logo"  src='/images/logo.png' alt=''/> </a>
+                <a class="links" href="/">CARDÁPIO</a>
+                <a class="links" href="/"> CONTATO </a>
                 <a class="login links" href='/admin'>LOGIN</a>
 
             </header>
