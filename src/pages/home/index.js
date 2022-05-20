@@ -1,5 +1,5 @@
 import './index.scss';
-
+import { Link } from 'react-router-dom'
 
 
 export default function index() {
@@ -11,10 +11,10 @@ export default function index() {
 
             <header class="head">
                 
-                <a href='/'> <img class="logo"  src='/images/logo.png' alt=''/> </a>
-                <a class="links" href="/">CARDÁPIO</a>
-                <a class="links" href="/"> CONTATO </a>
-                <a class="login links" href='/admin'>LOGIN</a>
+                <Link href='/'> <img class="logo"  src='/images/logo.png' alt=''/> </Link>
+                <Link class="links" href="/">CARDÁPIO</Link>
+                <Link class="links" href="/"> CONTATO </Link>
+                <Link class="login links" href='/admin'>LOGIN</Link>
 
             </header>
 
